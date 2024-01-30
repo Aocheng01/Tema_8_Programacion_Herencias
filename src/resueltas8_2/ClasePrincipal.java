@@ -1,4 +1,4 @@
-package resueltas8_1;
+package resueltas8_2;
 
 public class ClasePrincipal {
 
