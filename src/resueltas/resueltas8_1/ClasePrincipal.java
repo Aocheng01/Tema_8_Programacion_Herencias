@@ -1,6 +1,4 @@
-package resueltas8_2;
-
-import resueltas.resueltas8_1.*;
+package resueltas.resueltas8_1;
 
 public class ClasePrincipal {
 
