@@ -1,4 +1,6 @@
-package resueltas8_2;
+package resueltas8_3;
+
+import resueltas8_2.*;
 
 public class HoraExacta extends Hora {
 
@@ -33,6 +35,22 @@ public class HoraExacta extends Hora {
 //            }
         }
     }
+
+    @Override
+    public boolean equals(Object o) {
+//        boolean iguales;
+//        HoraExacta otraHora = (HoraExacta) o;
+// 
+//        if(super.equals(o) && this.segundos == otraHora.segundos){
+//            iguales=true;
+//        }else{
+//            iguales=false;
+//        }
+        return (super.equals(o) && segundos==((HoraExacta) o).segundos);
+        
+    }
+    
+    
 
     @Override
     public String toString() {

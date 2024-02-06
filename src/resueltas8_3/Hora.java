@@ -1,4 +1,6 @@
-package resueltas8_2;
+package resueltas8_3;
+
+import resueltas8_2.*;
 
 public class Hora {
 
@@ -45,6 +47,18 @@ public class Hora {
         return posible;
     }
 
+    public boolean equals(Object o){
+        HoraExacta otraHora = (HoraExacta) o;
+        boolean iguales;
+        if(this.hora==otraHora.hora
+                && this.minuto == otraHora.minuto){
+            iguales = true;
+        }else{
+            iguales=false;
+        }
+        return iguales;
+    }
+    
     @Override
     public String toString() {
         return "Hora{" + "hora=" + hora + ":" + minuto + '}';
